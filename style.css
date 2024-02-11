@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+hr {
+    width: 550px;
+    height: 32px;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-image: url(images/hr-design.png);
+}
+
+.hdft-back {
+    background-color: #9eb7e5;
+    margin: 0px;
+    padding: 10px;
+}
+
+body main {
+    background-color: #cdc392;
+    margin: 0;
+    padding: 30px;
+}
+
+.imgCentered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.textCentered {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 54px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #304c89;
+}
+
+body header p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.list-center {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
